@@ -1,0 +1,112 @@
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+
+.contactContainer{
+    border: 1px solid #fff;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjYA2-_SVGs4-UCqDcBCz8wg3oCmn9T9CxWongxyadv4s2VCZ2WdGltoDAHqKtNiUgyXM&usqp=CAU");
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.contact_container > h1{
+   padding-bottom: 20px;
+   background-color: hsl(22, 94%, 35%);
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   padding: 10px;
+   margin: 10px;
+   color: #fff;
+   font-size: 30px;
+}
+
+.contact_container > h1:hover{
+    background-color: transparent;
+    border: 2px solid#000;
+    transform: scale(1.05);
+}
+
+.contactContainer > h2{
+    font-size: 25px;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.contactContainer > h2:hover{
+    font-size: 27px;
+    color:#bd042c;
+}
+
+.contactContainer > p{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+    color:#2e023b;
+    
+}
+
+
+.contactContainer > p >span{
+    color: #721801;
+    font-size: 15px;
+}
+
+.contactContainer > p> span:hover{
+    font-size: 18px;
+    font-weight: bold;
+    color:#602c8b;
+}
+
+.iconSize{
+  font-size: 30px;
+  transition: font-size 0.3s ease; 
+  color:#540297;
+}
+
+.iconSize:hover{
+  font-size: 40px; 
+  font-weight: bold;
+  color:hsl(332, 96%, 19%);
+}
+
+@media screen and (max-width: 576px){
+    .contact_container > h1{
+        font-size: 20px;
+    }
+    .contactContainer{
+        width: 85%;
+        padding: 35px 15px;
+    }
+    .contactContainer > h2{
+        font-size: 20px;
+    }
+    .contactContainer > h2:hover{
+        font-size: 23px;
+    }
+    .contactContainer > p{
+        font-size: 15px;   
+    }
+    .contactContainer > p >span{
+        font-size: 13px;
+    }
+    .contactContainer > p> span:hover{
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+}

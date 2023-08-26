@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+
+.projectContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:200px 70px;
+    color: #fff;
+}
+
+.projectContainer > h1{
+    padding-bottom: 20px;
+    background-color: hsl(22, 94%, 35%);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.projectContainer > h1:hover{
+   background-color: transparent;
+   border: 2px solid #000;
+}
+
+.projectContainer >p{
+    padding-bottom: 20px;
+}
+
+.projectsBg{
+    background-image: url("https://cutewallpaper.org/21/hd-website-backgrounds/25-Free-Website-Backgrounds-The-HostBaby-Blog.jpg");
+    background-size: cover;
+    height: auto;
+    width:auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.projectContainer_projects{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width: 576px){
+    .projectContainer {
+        margin:100px 100px;
+    }
+    .projectContainer > h1{
+        font-size: 20px;
+        
+    }
+    .projectContainer >p{
+        font-size: 13px;
+    }
+}
